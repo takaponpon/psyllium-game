@@ -1,3 +1,4 @@
+<@charset "UTF-8";>
 .wrap-btns {
   display: flex;
   flex-direction: column;
@@ -11,6 +12,10 @@ h1 {
 }
 .wrap {
   background-color: black;
+}
+#game-area {
+  display: flex;
+  flex-direction: row;
 }
 #psyllium-area {
   display: flex;
