@@ -1,4 +1,8 @@
-<@charset "UTF-8";>
+@charset "UTF-8";
+
+h1 {
+  color: red;
+}
 .wrap-btns {
   display: flex;
   flex-direction: column;
@@ -7,11 +11,12 @@
 .result {
   color: blue;
 }
-h1 {
-  color: red;
-}
 .wrap {
   background-color: black;
+}
+
+#right-department, #left-department{
+  width: calc(100vh/2); 
 }
 #game-area {
   display: flex;
