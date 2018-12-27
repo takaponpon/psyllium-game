@@ -1,0 +1,44 @@
+.wrap-btns {
+  display: flex;
+  flex-direction: column;
+  margin-top: 90px;
+}
+.result {
+  color: blue;
+}
+h1 {
+  color: red;
+}
+.wrap {
+  background-color: black;
+}
+#psyllium-area {
+  display: flex;
+}
+#left-psyllium{
+  background-color:white;
+  border:solid 1px white;
+}
+#right-psyllium{
+  background-color:white;
+  border:solid 1px white;
+}
+#result-area {
+  font-size: 20px;
+  color: #FF0000;
+}
+.psyllium {
+  margin-top: 90px;
+  transform: rotate(-90deg);
+  color:#FFF;
+  display:block;
+  text-decoration:none;
+  text-align:center;
+  line-height:40px;
+  box-sizing:border-box;
+  position:relative;
+  transition:all 0.2s cubic-bezier(.09,1.17,.51,.98);
+  border-radius:20px;
+  width:170px;
+  height:40px;
+}

@@ -7,13 +7,36 @@
 </head>
 
 <body>
-<main>
+<!-- <main>
   <h1>GitHub Pages のサンプルです</h1>
   <a href="http://www.tam-tam.co.jp/tipsnote/"><button>TipsNote に戻る</button></a>
-</main>
+</main> -->
+<div class="wrap">
+  <h1></h1>
+  <div style="display:flex; flex-direction:row;">
+    <div id="left-department">
+      <div id="left-psyllium" class="psyllium"></div>
+      <div class="wrap-btns">
+        <button id="left-increment">+</button>
+        <button id="left-decrement">-</button>
+      </div>
+    </div>
+    <div id="right-department">
+      <div id="right-psyllium" class="psyllium"></div>
+      <div class="wrap-btns">
+        <button id="right-increment">+</button>
+        <button id="right-decrement">-</button>
+      </div>
+    </div>
+  </div>
+  <div id="result-area">
+  </div>
+  <button id="answer">Answer</button> <button id="next">Next</button>
+</div>
 
-<script>
-console.log('GitHub Pages Sample');
-</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/redux/3.5.2/redux.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
 </body>
 </html>
